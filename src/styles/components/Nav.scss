@@ -1,0 +1,27 @@
+@import '../colors';
+
+.Nav {
+  align-items: center;
+  display: flex;
+}
+
+a.Nav-link,
+span.Nav-link,
+a.Nav-link-active,
+span.Nav-link-active {
+  color: inherit;
+  cursor: pointer;
+  font-weight: normal;
+  margin-right: 10px;
+  padding: 9px 0;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.Nav-link:active,
+.Nav-link:focus,
+.Nav-link:hover,
+.Nav-link-active {
+  border-bottom: 2px solid $secondary-color;
+  padding-bottom: 7px;
+}

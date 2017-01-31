@@ -1,0 +1,37 @@
+@import '../responsive_utils';
+
+.Footer {
+  padding: 20px 0;
+}
+
+.Footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Footer-title {
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+.Footer-addresses {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 10px;
+}
+
+.Footer-address {
+  &:last-child {
+    margin-left: 35px;
+  }
+}
+
+.Footer-donate-mobile {
+  padding-bottom: 20px;
+}
+
+@media (max-width: $phone-cutpoint) {
+  .Footer { padding: 10px 0; }
+  .Footer-content { display: block; }
+}

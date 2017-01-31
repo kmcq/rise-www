@@ -1,0 +1,13 @@
+$phone-cutpoint: 720px;
+
+@media (max-width: $phone-cutpoint) {
+  .no-phone {
+    display: none;
+  }
+}
+
+@media (min-width: $phone-cutpoint) {
+  .only-phone {
+    display: none;
+  }
+}

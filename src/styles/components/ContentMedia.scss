@@ -1,0 +1,49 @@
+@import '../colors';
+
+.ContentMedia {
+}
+
+.ContentMedia-dropzone {
+  border: 1px dashed #888;
+  border-radius: 5px;
+  color: #888;
+  cursor: pointer;
+  margin-bottom: 10px;
+  padding: 10px;
+  user-select: none;
+
+  &:hover {
+    background-color: #ccc;
+    color: black;
+  }
+}
+
+.ContentMedia-dropzone-active {
+  background-color: #ccc;
+  color: black;
+}
+
+.ContentMedia-media {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.ContentMedia-image-container {
+  border: 1px solid #ccc;
+  cursor: pointer;
+  margin-bottom: 5px;
+  position: relative;
+  width: 200px;
+}
+
+.ContentMedia-image {
+  width: 100%;
+}
+
+.ContentMedia-PDF-link {
+  cursor: pointer;
+
+  &:hover {
+    color: $secondary-color;
+  }
+}

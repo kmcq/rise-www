@@ -1,0 +1,22 @@
+.button {
+  border-radius: 2px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1em;
+  line-height: 1.25;
+  padding: .5rem 1rem;
+  text-align: center;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button:hover {
+  text-decoration: none;
+}
+
+a.button {
+  display: block;
+  text-decoration: none;
+}

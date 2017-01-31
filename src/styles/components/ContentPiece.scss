@@ -1,0 +1,24 @@
+.ContentPiece {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.ContentPiece-content {
+  flex-grow: 1;
+}
+
+.ContentPiece-image-container {
+  text-align: center;
+}
+
+.ContentPiece-image {
+  width: 100%;
+}
+
+.about {
+  .ContentPiece-image {
+    max-width: 100%;
+    width: auto;
+  }
+}

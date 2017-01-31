@@ -1,0 +1,44 @@
+$primary-color: #218FFF;
+$primary-darker: #3E2723;
+$secondary-color: #59068D;
+$secondary-darker: #1B5E20;
+$white: #FFFFFF;
+
+.primary-foreground {
+  color: $primary-color;
+}
+
+.primary-background {
+  background-color: $primary-color;
+  color: $white;
+}
+
+.secondary-background {
+  background-color: $secondary-color;
+  color: $white;
+}
+
+.button.secondary-background:hover {
+  background-color: $secondary-darker;
+}
+
+.secondary-border,
+.secondary-border:active,
+.secondary-border:focus,
+.secondary-border:hover {
+  border-color: $secondary-color;
+}
+
+.callout,
+.secondary-foreground {
+  color: $secondary-color;
+}
+
+p a, li a, .readable a {
+  color: $secondary-color;
+  font-weight: 700;
+}
+
+p a:visited, li a:visited {
+  color: $secondary-darker;
+}

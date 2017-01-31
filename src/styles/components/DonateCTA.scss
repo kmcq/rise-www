@@ -1,0 +1,17 @@
+@import '../responsive_utils';
+
+.DonateCTA {
+  max-width: 350px;
+}
+
+.DonateCTA h2, .DonateCTA h3 {
+  padding-bottom: 10px;
+}
+
+.DonateCTA-disclaimer {
+  font-size: 12px;
+}
+
+@media (max-width: $phone-cutpoint) {
+  .DonateCTA { max-width: none; }
+}

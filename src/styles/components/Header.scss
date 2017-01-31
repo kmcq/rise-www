@@ -1,0 +1,52 @@
+@import '../responsive_utils';
+
+.Header {
+  border-bottom: 1px solid #ccc;
+}
+
+.Header.container {
+  max-width: 1020px;
+}
+
+.Header-content {
+  align-items: center;
+  display: flex;
+  flex-grow: 0;
+  justify-content: space-between;
+  padding: 35px 10px 10px;
+}
+
+.Header-content-item {
+  margin-right: 5px;
+}
+
+.Header-title {
+  align-items: center;
+  display: flex;
+  text-decoration: none;
+}
+
+.Header-nav {
+  font-size: .9em;
+}
+
+.logo {
+  height: 68px;
+  width: 58px;
+}
+
+@media (max-width: 1020px) {
+  .Header-content {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: $phone-cutpoint) {
+  .Header { border: none; }
+  .Header-content {
+    display: block;
+    padding: 0;
+  }
+  .Header-nav { font-size: .7em; }
+}

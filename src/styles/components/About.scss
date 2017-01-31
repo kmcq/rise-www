@@ -1,0 +1,26 @@
+@import '../responsive_utils';
+
+.About {
+  padding-top: 20px;
+}
+
+.About-subtitle {
+  font-size: 1.5em;
+  padding-bottom: 20px;
+}
+
+.About-body {
+  padding-top: 20px;
+}
+
+.About-body-nav {
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  padding-bottom: 20px;
+}
+
+@media (max-width: $phone-cutpoint) {
+  .About-subtitle { font-size: 1em; }
+  .About-image-hero { height: 175px; }
+}
