@@ -25,8 +25,9 @@
   },
   "scripts": {
     "setup": "yarn && yarn run build-css",
-    "start": "yarn run watch-css & react-scripts start",
+    "start": "yarn run css & react-scripts start",
     "build": "yarn run build-css && react-scripts build",
+    "css": "yarn run build-css && yarn run watch-css",
     "deploy": "yarn run build && firebase deploy",
     "test": "react-scripts test --env=jsdom",
     "build-css": "node-sass src/styles/index.scss src/index.css",
