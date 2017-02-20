@@ -55,16 +55,10 @@ ReactDOM.render(
         <IndexRoute component={Home} />
         <Route path="/about" component={ContentPiece} />
         <Route path="/about/:slug" component={ContentPiece} />
-        <Route path="/programs" component={ContentPiece} />
-        <Route path="/programs/:slug" component={ContentPiece} />
+        <Route path="/campaigns" component={ContentPiece} />
+        <Route path="/campaigns/:slug" component={ContentPiece} />
         <Route path="/get-involved" component={ContentPiece} />
         <Route path="/get-involved/:slug" component={ContentPiece} />
-        <Route path="/resources" component={ContentPiece} />
-        <Route path="/resources/:slug" component={ContentPiece} />
-        <Route path="/news" component={ContentPiece} />
-        <Route path="/news/:slug" component={ContentPiece} />
-        <Route path="/blog" component={ContentPiece} />
-        <Route path="/blog/:slug" component={ContentPiece} />
         <Route path="/sign-in" component={SignIn} />
         <Route path="/**" component={NotFound} />
       </Route>

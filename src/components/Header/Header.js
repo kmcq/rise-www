@@ -5,10 +5,8 @@ import Nav from '../Nav';
 export default function Header({ path }) {
   const links = [
     { name: 'ABOUT US', path: '/about', indexLevels: [1, 2] },
-    { name: 'WHAT WE DO', path: '/programs', indexLevels: [1, 2] },
-    { name: 'GET INVOLVED', path: '/get-involved', indexLevels: [1, 2] },
-    { name: 'RESOURCES', path: '/resources', indexLevels: [1, 2] },
-    { name: 'NEWS', path: '/news', indexLevels: [1, 2] }
+    { name: 'OUR CAMPAIGNS', path: '/campaigns', indexLevels: [1, 2] },
+    { name: 'GET INVOLVED', path: '/get-involved', indexLevels: [1, 2] }
   ];
   return (
     <div className="Header container">
@@ -23,7 +21,7 @@ export default function Header({ path }) {
           </div>
           <div className="Header-content-item">
             <h1>
-              Resisting Injustice and Standing for Equality (RISE)
+              Resisting Injustice &amp; Standing for Equality
             </h1>
           </div>
         </Link>

@@ -1,6 +1,5 @@
 import React from 'react';
 import Link from 'react-router/lib/Link';
-import { DONATE_LINK } from '../../lib/constants';
 import { href, isActiveLink, isIndexFor } from '../../lib/navMethods';
 
 class Nav extends React.Component {
@@ -37,17 +36,6 @@ class Nav extends React.Component {
     return (
       <div className="Nav sans">
         {this.renderLinks()}
-        {this.props.withDonate &&
-            <div className="Nav-item no-phone">
-              <a
-                className="button secondary-background"
-                href={DONATE_LINK}
-                target="_blank"
-              >
-                DONATE
-              </a>
-            </div>
-        }
       </div>
     );
   }
