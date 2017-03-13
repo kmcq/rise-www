@@ -13,11 +13,7 @@ export default function Header({ path }) {
       <div className="Header-content">
         <Link to="/" className="Header-title primary-foreground">
           <div className="Header-content-item">
-            <img
-              src={'/' + process.env.PUBLIC_URL + 'logo.png'}
-              className="logo"
-              alt="Resisting Injustice and Standing for Equality (RISE)"
-            />
+            {/* removed logo from here, to be replaced later */}
           </div>
           <div className="Header-content-item">
             <h1>
